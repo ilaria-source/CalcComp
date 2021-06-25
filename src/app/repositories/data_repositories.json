@@ -1,0 +1,20 @@
+[
+  {
+    "typeName": "classic",
+    "url": "/classic-mode/classic-mode.component",
+    "icon": "bug" ,
+    "active": true
+  },
+  {
+    "typeName": "scientific",
+    "url": "",
+    "icon": "construct",
+    "active": false
+  },
+  {
+    "typeName": "programmer",
+    "url": "",
+    "icon": "save",
+    "active": false
+  }
+]
