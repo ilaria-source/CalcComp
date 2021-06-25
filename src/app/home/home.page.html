@@ -22,12 +22,13 @@
           <br>
           <ion-menu-toggle auto-hide="false" *ngFor="let item of dataCalcList" >
 
-            <ion-item routerDirection="root" [routerLink]="[item.url]"  lines="none" detail="false" routerLinkActive="selected" >
-              <ion-icon slot="start" [ios]="item.icon + '-outline'" [md]="item.icon + '-sharp'" ></ion-icon>
+          <!-- [ngClass]="{item.isOn === true ? "active" }"> -->
 
+             <ion-item routerDirection="root" [routerLink]="item.url" lines="none" detail="false" routerLinkActive="selected"  >
+               <ion-icon slot="start" [ios]="item.icon + '-outline'" [md]="item.icon + '-sharp'" [routerLink]="item.url" > </ion-icon>
+               <!-- <a href="./home-routing.module.ts" (click)="getCalculator()"/> clicca -->
               <ion-label > {{item.typeName}} </ion-label>
-            </ion-item>
-
+           </ion-item>
           </ion-menu-toggle>
 
         </ion-list>

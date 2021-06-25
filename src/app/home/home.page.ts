@@ -13,5 +13,8 @@ export class HomePage {
     public dataCalcList: {typeName: TypeCalc; url: string; icon: string; isOn: boolean}[] = dataCalc;
 
   constructor() {}
-
+  getCalculator()
+  {
+console.log('prova');
+  }
 }
