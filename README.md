@@ -1,0 +1,2 @@
+# CalcComp
+calcolatrice utilizzando component
